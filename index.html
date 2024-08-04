@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculadora em JS</title>
+
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <script src="./assets/js/calculator.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <!-- Título e Instruções -->
+
+            <div class="abs-top">
+                <h1>Calculadora em JS</h1>
+                <p>
+                    Calculadora criada com HTML, CSS e Javascript. Para utilizar, clique nos botões
+                    na tela ou use o teclado de seu computador. Além dos número e operadores, os
+                    outros botões do teclado são:
+                </p>
+                <ul>
+                    <li>ESC = Zerar calculadora.</li>
+                    <li>ENTER = Mostrar resultado.</li>
+                    <li>BACKSPACE ou DEL = Apagar último valor inserido.</li>
+                </ul>
+            </div>
+
+            <!-- Calculadora -->
+
+            <div class="calc">
+                <div class="calc-display">
+                    <div class="last-value">0</div>
+                    <div class="current-value">0</div>
+                </div>
+                <div class="calc-buttons">
+                    <div class="calc-buttons-col">
+                        <button class="gray" data-btn-value="C">AC</button>
+                        <button class="white" data-btn-value="7">7</button>
+                        <button class="white" data-btn-value="4">4</button>
+                        <button class="white" data-btn-value="1">1</button>
+                        <button class="white" data-btn-value="0">0</button>
+                    </div>
+                    <div class="calc-buttons-col">
+                        <button class="gray" data-btn-value="D">DEL</button>
+                        <button class="white" data-btn-value="8">8</button>
+                        <button class="white" data-btn-value="5">5</button>
+                        <button class="white" data-btn-value="2">2</button>
+                        <button class="gray" data-btn-value=".">.</button>
+                    </div>
+                    <div class="calc-buttons-col">
+                        <button class="gray" data-btn-value="%">%</button>
+                        <button class="white" data-btn-value="9">9</button>
+                        <button class="white" data-btn-value="6">6</button>
+                        <button class="white" data-btn-value="3">3</button>
+                        <button class="redish" data-btn-value="=">=</button>
+                    </div>
+                    <div class="calc-buttons-col">
+                        <button class="orange" data-btn-value="/">&divide;</button>
+                        <button class="orange" data-btn-value="*">x</button>
+                        <button class="orange" data-btn-value="-">-</button>
+                        <button class="orange double-h" data-btn-value="+">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Créditos da Imagem -->
+
+            <div class="abs-dow">
+                Foto de
+                <a
+                    href="https://unsplash.com/pt-br/@possessedphotography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                    >Possessed Photography</a
+                >
+                na
+                <a
+                    href="https://unsplash.com/pt-br/fotografias/uma-grande-exibicao-de-numeros-vermelhos-em-uma-parede-tOjIx_NyzFo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                    >Unsplash</a
+                >
+            </div>
+        </main>
+    </body>
+</html>
